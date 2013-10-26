@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Store.Book" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAgAAAIIAAACA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.Client" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAIAAAAAAAAAAAQAAgAEAAIAAgAAAgAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Store.InventoryManagement" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InventoryManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.Logger" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.MainClass" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MainClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.Movie" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.Music" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAA=</HashCode>
+      <FileName>Music.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.Product" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADgAUAAQAAAQAAAAAiBASAAAAEAADCAgAAgQIAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Store.ProductNotExistsExeption" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductNotExistsExeption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.Store" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAEAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.StudentAccessory" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>StudentAccessory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store.Toy" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Store.Product" FixedFromPoint="true">
+      <Path>
+        <Point X="5.75" Y="1.062" />
+        <Point X="5.75" Y="1.375" />
+        <Point X="10.25" Y="1.375" />
+        <Point X="10.25" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Toy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Store.History" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>History.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Store.IDiscountable" Collapsed="true">
+    <Position X="12" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>IDiscountable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Store.IRentable" Collapsed="true">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRentable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Store.ISearchable">
+    <Position X="15.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISearchable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Store.AccessoryType" Collapsed="true">
+    <Position X="12" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAADAEgAAAAAAAAAAAAAAAAAAAAEAQAAAA=</HashCode>
+      <FileName>AccessoryType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Store.ErrorType" Collapsed="true">
+    <Position X="13.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ErrorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Store.Genre" Collapsed="true">
+    <Position X="15.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAEhAADAAACIgBAAAIICAAAAAgAAIACCFAQABEQ=</HashCode>
+      <FileName>Genre.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Store.Nationality" Collapsed="true">
+    <Position X="12" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAACAAAKAAAAAAAAAAAAABAQAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Nationality.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Store.StaffPosition" Collapsed="true">
+    <Position X="13.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaffPosition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Store.DelegateAlmostEmptyInventory" Collapsed="true">
+    <Position X="12" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Store.DelegateEmptyInventory" Collapsed="true">
+    <Position X="13.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
